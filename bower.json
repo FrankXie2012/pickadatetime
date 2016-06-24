@@ -1,0 +1,21 @@
+{
+  "name": "pickadate",
+  "authors": [
+    "Frank Shieh <fr6nkxie@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "pickadate": "^3.5.6",
+    "jquery": "^3.0.0"
+  }
+}

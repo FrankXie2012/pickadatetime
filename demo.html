@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo for datetimepicker</title>
+	<link rel="stylesheet" href="bower_components/pickadate/lib/compressed/themes/classic.css">
+	<link rel="stylesheet" href="bower_components/pickadate/lib/compressed/themes/classic.date.css" />
+	<link rel="stylesheet" href="bower_components/pickadate/lib/compressed/themes/classic.time.css" />
+	<style>
+		.demo{ padding: 30px; width: 300px; }
+		.datetimepicker{ border: 1px solid #ddd; height: 30px; width: 100%; line-height: 30px; text-indent: 10px; position: relative; z-index: 10; }
+
+		.picker-wrap{ position: relative; margin-bottom: 30px; }
+		.picker-wrap .hidden-picker{ position: absolute; top: 0; left: 0; overflow: hidden; width: 1px; height: 1px; }
+		.picker-back{ border: 1px solid #0089ec; padding: 5px 10px; color: #0089ec; background-color: #fff; position: relative; left: 50%; margin-left: -38px; margin-top: 15px; }
+
+		.picker__list{ padding-bottom: 10px; }
+	</style>
+</head>
+<body>
+<div class="demo">
+	<input type="text" class="datetimepicker" id="picker1" />
+	<input type="text" class="datetimepicker" id="picker2" />
+	<input type="text" class="datetimepicker" id="picker3" />
+	<input type="text" class="datetimepicker" id="picker4" />
+	<input type="text" class="datetimepicker" id="picker5" />
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/pickadate/lib/compressed/picker.js"></script>
+<script src="bower_components/pickadate/lib/compressed/picker.date.js"></script>
+<script src="bower_components/pickadate/lib/compressed/picker.time.js"></script>
+<script src="bower_components/pickadate/lib/compressed/translations/zh_CN.js"></script>
+<script src="picker.datetime.js"></script>
+<script>
+$('#picker1').pickadatetime();
+$('#picker2').pickadatetime();
+$('#picker3').pickadatetime();
+$('#picker4').pickadatetime();
+$('#picker5').pickadatetime();
+</script>
+</body>
+</html>
